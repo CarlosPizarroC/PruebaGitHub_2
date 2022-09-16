@@ -9,3 +9,5 @@ No se por donde empezar... talvez empezando por el ahora me lleve a hablar del a
 ...dos archivos
 
 esc + shift + z + z
+
+esc + i
