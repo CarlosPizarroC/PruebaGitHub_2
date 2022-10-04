@@ -1,3 +1,6 @@
 hola, esta es una prueba...
 
 Cambio en...
+
+voy a practicar... me interesa probar le git reset HEAD, así que a ver
+
