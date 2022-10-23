@@ -11,5 +11,9 @@ class carro:
         print("Se creado el vehículo ", self.nombre, " con una velocidad de ", self.velocidad, "Km/h.")
 
     def andar(self, tiempo: int=None) -> None:
-        print("no quiero andar >:|")
+        if not tiempo: #Yo si quiero andar :p
+            tiempo = randint(1, 10)
+
+        for i in range(tiempo):
+            print("El vehículo ", self.nombre, " ha recorrido ", self.velocidad*tiempo, "Km/h.")
             
