@@ -1,0 +1,26 @@
+Comandos git:
+
+	git add 
+	git commmit -m
+	git status
+	git log
+	git diff 
+	git reset: nos permite volver al estado anterior (--har	bborrando todo lo que tenemos en staging y perdiendo los 	cambios para siempre, --soft mantienes los cambios en el staging)
+	git checkout + ID del commit nos permite viajar en el tiempo. Podemos volver a cualquier versión anterior de un archivo específico o incluso del proyecto entero. Esta también es la forma de crear ramas y movernos entre ell	git rm:
+		-- cached elimina los archivos de nuestro repositorio local y del área de staging, pero los conserva en el dis duro, es decir deja de hacer trackear el historial de cambios de los archivos.
+	
+	git reset HEAD: sirve para sacar los ultimos archivos del staging.
+
+
+	git push: Para enviar los cambios a un servidor
+
+	git fetch: Enviía el repositorio remoto al repositorio local. No lo copiía en mis archivos, para eso...
+	git merge: se usa este para juntar la versión del respositorio con mi versión actual.
+	git pull: hace los dos anteriores.
+	
+	git clone <url>: Trae un repositorio remoto, con todos sus archivos de la rama master y el historial de cambios, (es como importar un proyecto) es el git init pero para iniciar un repositorio remoto.
+
+
+CORRECCIÖN: git fetch envia del remoto al local, no lrevez.
+
+	git branch <nombre de la rama>:
