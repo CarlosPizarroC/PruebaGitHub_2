@@ -24,3 +24,5 @@ Comandos git:
 CORRECCIÖN: git fetch envia del remoto al local, no lrevez.
 
 	git branch <nombre de la rama>:
+
+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-_-
