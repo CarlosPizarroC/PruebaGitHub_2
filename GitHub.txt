@@ -1,0 +1,2 @@
+Remote:
+        $ git remote add origin https://... <dirección del respositorio>  (clone or download)
